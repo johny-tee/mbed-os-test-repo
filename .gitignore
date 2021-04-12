@@ -1,6 +1,9 @@
 projectfiles
 *.py*
-mbed-os
+
+# Libraries
+mbed-os/
+mbed-mqtt
 
 # Default Build Directory
 .build/
@@ -8,3 +11,4 @@ BUILD/
 .mbed
 venv/
 BUILD
+mbed-mqtt
